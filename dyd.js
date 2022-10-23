@@ -3,7 +3,7 @@
 
 #懂阴帝
 
-https:\/\/tehvh\.cmmsjbu\.com.+ url request-header dyd.js
+https:\/\/tehvh\.cmmsjbu\.com.+ url request-header https://raw.githubusercontent.com/gjwj666/qx/main/dyd.js
 
 主机名MITM
 
