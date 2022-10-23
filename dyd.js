@@ -3,11 +3,11 @@
 
 #懂阴帝
 
-https:\/\/*.cmmsjbu\.com.+ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/dyd.js
+^http[s]s:\/\/tehvh\.cmmsjbu\.com\/api\/app\/user\/info url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/dyd.js
 
 主机名MITM
 
-*.cmmsjbu.*
+tehvh.cmmsjbu.com
 
 
 
