@@ -15,7 +15,7 @@ Tg频道:https://t.me/gjwj6
 ^http[s]?:\/\/.+keep.+(liveStream/schedule|start|preview|athena/v5/people/my|ad/preload).*$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/kp.js
 
 
-MITM = *keep*
+hostname = *keep*
 
 
  */
