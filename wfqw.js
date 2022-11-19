@@ -9,7 +9,7 @@ Tg频道:https://t.me/gjwj6
 *******************************
 [rewrite_local]
 
-^http[s]?:\/\/.+user/ios_store_pay_edition.+(check_members_identity_v2|get_member_info) url script-response-body wfqw.js
+^http[s]?:\/\/.+user/ios_store_pay_edition.+(check_members_identity_v2|get_member_info) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/wfqw.js
 [mitm] 
 hostname = iosv2.cjapi.wufan88.com
 
