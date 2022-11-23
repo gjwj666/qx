@@ -6,18 +6,24 @@ TG频道群：
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 #网易云解锁VIP直接听
-^http[s]?:\/\/.+(player/url|playlist|entrance|/eapi/search/).*$ url script-request-header wyy.js
+^http[s]?:\/\/.+(player/url|playlist|entrance|/eapi/search/).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/ wyy.js
 
 [mitm]
 hostname = *music*
 
  */
-
-var modifiedHeaders = $request.headers;
-
-modifiedHeaders.Cookie = "MUSIC_U=00A9F4141BBAE518DF60D2C0D66AEF3014E83DBED0997694066F7160BE73A4F397DE85017C89646774BB11E3FB473E97061FDA3B4E769E6E9AEC337CEF687C30959D6FEBBB43F99403FB83274AD2781B8FE7F08CB66701C77A9B79CCAFE63301A72A4AFEF1076538AA90C892E8B7289E8BAE87E0807CD077819CB0DD59B57AD32801440E7FDB42449ED02DB92A7024BF025F5D6FA1A58B5473E805619C69AA4204B9997758D4D22238C34A184696FDAA7A44BBE4680AC2917AB46D4F1901C0B3DD4DF686D0A337B1F2DDC4840DD20CD5D6DA0F147FA0B6DD24242CA6F4921AE8121D735E2ED6999D22F26040CD9ED30435287EE52E468D5EE6CC3D58B1B861912AFAA30B08C68C06E7A78EA1A592F1C8008B438CB353454BDA415B9A6D0EFA84EA; NMTID=00OAyaqlEkJjb81sEgFimrJ6PwL0RgAAAGBzeNpcQ; buildver=2956; channel=distribution; EVNSM=1.0.0; appver=8.7.85; deviceId=584f9e086619c49adc651e974f788304; os=iPhone OS; osver=15.3.1; machineid=iPhone12.1; NMCID=yxqatd.1657016624000.01.3; appkey=IuRPVVmc3WWul9fT; URS_APPID=BE77B8BD3793FDEA9EB61169C69024F98B6032ABA2860B63C397B9DEA635164C9CC2821647BBF7FC67D9350F9678A060; NMDI=Q1NKTQcBDACIVs86sy6XNbRibTSVAAAA6MwCwHjABC27xgaUq1IsM7il4fqEmGUrZXh37BcrE3sv0IIXTsjVYBB0LvDeOCNYT%2BJmsqPjWcNPbzZYbxhI9o%2BdvJRwbRXVotDE6io1%2FaFRKFDMgO2yrjOn1NGIa8ir0xWc27Yvx8j6MV1jyi4r2hprerINkivJrfz3K%2FnLEEqpu6jQktmC%2Fg7CWXNbbwR%2FRWTG5MA%3D", 
-modifiedHeaders["User-Agent"] = "NeteaseMusic 8.7.85/2956 (iPhone; iOS 15.3.1; zh_CN)", 
-modifiedHeaders["MConfig-Info"] = '{"IuRPVVmc3WWul9fT":{"version":2848768,"appver":"8.7.85"},"c0Ve6C0uNl2Am0Rl":{"version":591872,"appver":"1.7.50"},"tPJJnts2H31BZXmp":{"version":1075200,"appver":"2.0.30"}}', 
-$done({
-    headers: modifiedHeaders
-}), 
+var __encode ='jsjiami.com',_a={}, _0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]= _0xb483[1]})(_a);JScriptCodeDom.CodeParseException: Unexpected Token Semicolon , Line 9, Char 0 ---> System.Exception: Unexpected Token Semicolon
+   at JScriptCodeDom.CodeParser.ParseLazyExpressionCore(Boolean bthrowerr)
+   at JScriptCodeDom.CodeParser.ParseLazyExpression(Boolean bthrowerr)
+   at JScriptCodeDom.CodeParser.ContinueExpressionCore(CodeExpression leftexp, Boolean allowcommer, Boolean parsingFunctionStatement)
+   at JScriptCodeDom.CodeParser.ContinueExpression(CodeExpression leftexp, Boolean allowcommer, Boolean parsingFunctionStatement)
+   at JScriptCodeDom.CodeParser.InternalParseStatementCore()
+   at JScriptCodeDom.CodeParser.InternalParseStatement()
+   at JScriptCodeDom.CodeParser.ParseStatement()
+   at JScriptCodeDom.CodeParser.ParseBlock()
+   at JScriptCodeDom.CodeParser.Parse(String code, String filename, Int32 lineoffset, Boolean keeplinenum)
+   --- End of inner exception stack trace ---
+   at JScriptCodeDom.CodeParser.Parse(String code, String filename, Int32 lineoffset, Boolean keeplinenum)
+   at ProtectorV1.Protect(String[] codes)
+   at ProtectorV1.Protect(String code)
+   at ASP.javascript_obfuscator_aspx.Button1_Click(Object sender, EventArgs e)
