@@ -1,12 +1,12 @@
 /*
 脚本功能：网易云音乐听vip
 
-TG频道群：
+TG频道群：https://t.me/gjwj6
 
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 #网易云解锁VIP直接听
-^http[s]?:\/\/.+(player/url|playlist|entrance|/eapi/search/).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/ wyy.js
+^http[s]?:\/\/.+(player/url|playlist|entrance|/eapi/search/).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/wyy.js
 
 [mitm]
 hostname = *music*
