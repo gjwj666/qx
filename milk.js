@@ -14,8 +14,8 @@ ios鸡神破解
 
 [rewrite_local]
 
-^https:\/\/ppt.fuaybr.cn\/\/Api\/getuserinfo url script-response-body milk.js
-^https:\/\/ppt.fuaybr.cn\/\/Api/getmovexiangqing url request-body sign_token=.*? request-body sign_token=3dab9d6b0eecfd74299b5f843dcee351
+^http[s]?:\/\/ppt.fuaybr.cn\/\/Api\/(getmovexiangqing|getmhepisodesimg).*$ url request-body sign_token=[a-zA-Z0-9]+ request-body sign_token=3dab9d6b0eecfd74299b5f843dcee351
+^https:\/\/ppt.fuaybr.cn\/\/(Api|Milk)\/(getuserinfo|getstartup|getvideotop) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/milk.js
 
 [mitm]
 
