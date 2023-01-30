@@ -18,7 +18,7 @@ xbc1.live
 [rewrite_local]
 
 
-https:\/\/api101\.xbcapp\.xyz\/api\/tiny-shop\/v1\/index\/index url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/xbc.js
+https:\/\/api101\.xbcapp\.xyz\/api\/tiny-shop\/v1\/index\/.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/xbc.js
 
 [mitm] 
 
