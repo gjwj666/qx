@@ -7,13 +7,9 @@
 
 TG频道群：https://t.me/gjwj6
 
-使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
-
-
-
 [rewrite_local]
 
-https:\/\/jiekou1\.shijiujin\.com\/Login\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/69sp.js
+^https:\/\/jiekou1\.shijiujin\.com\/Login\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/69sp.js
 
 [mitm] 
 hostname = jiekou1.shijiujin.com
