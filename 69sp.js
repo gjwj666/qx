@@ -17,7 +17,7 @@ https:\/\/jiekou1\.shijiujin\.com\/Login\/info url script-response-body https://
 
 
 [mitm] 
-hostname = *.shijiujin.*
+hostname = jiekou1.shijiujin.com
 
 
 
