@@ -11,6 +11,7 @@ TG频道群：https://t.me/gjwj6
 *******************************/
 
 
+[rewrite_local]
 
 https:\/\/jiekou1\.shijiujin\.com\/Login\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/69sp.js
 
