@@ -4,7 +4,7 @@
 
 下载地址：https://is.gd/2nSvVO
 
-软件版本：最新版本
+软件版本：最新版本可用
 
 TG频道群：https://t.me/gjwj6
 
@@ -14,7 +14,7 @@ TG频道群：https://t.me/gjwj6
 
 [rewrite_local]
 
-^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/xt.js
+^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/xingtu.js
 
 [mitm] 
 
