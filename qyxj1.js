@@ -4,7 +4,7 @@
 *******************************
 [rewrite_local]
 
-^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*total_memory.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/qxyqvip.js
+^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*total_memory.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/qyxj1.js
 [mitm] 
 hostname = commerce-api.faceu.mobi
 *******************************/
