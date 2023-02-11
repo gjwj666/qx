@@ -2,9 +2,9 @@
 
 脚本功能：剪映——解锁VIP
 
-下载地址：https://is.gd/2nSvVO
+下载地址：https://apps.apple.com/cn/app/%E5%89%AA%E6%98%A0-%E8%BD%BB%E8%80%8C%E6%98%93%E5%89%AA/id1458072671
 
-软件：6.9.1
+软件：最新版本
 
 TG频道群：https://t.me/gjwj6
 
