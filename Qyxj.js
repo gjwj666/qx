@@ -4,7 +4,7 @@
 *******************************
 [rewrite_local]
 
-^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*total_memory.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/qxyq.js
+^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*total_memory.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/Qxyq.js
 [mitm] 
 hostname = *faceu*,*retouchpics*,*.ulikecam.com
 *******************************/
