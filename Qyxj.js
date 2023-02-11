@@ -10,7 +10,7 @@ hostname = *faceu*,*retouchpics*
 *******************************/
 
 var _0x359853 = $request['headers'];
-_0x359853['x-Tt-Token'] = '00437e85bb6121b10cc190233d180cfc6e060f91f5de63e790edf50de59095c423bb82d7a397d50c7c1f71478ae442f974024074c59d232c64ec6d08ce8f9b02b9d51fe4ad81c530159f626c56ac306f4c2889718c27cef2ef8e01174df3bb9464dd6-1.0.1';
+_0x359853['x-Tt-Token'] = '003c5911a18488931226c03833aff84a5703ea0a296ba446ee97f6a18a0af145ace310d571f3b2c65e51bf99a9a7dd2a6f5e8da10d99cc2c9e0aae6d4cb2c4bb7bafa3634bf0c2e84d9d2324ecafc42b1751615c03275723c43a439a7c26f14a97207-1.0.1';
 _0x359853['User-Agent'] = 'Beauty 5.0.0 rv:5.0.0.10 (iPhone; iOS 15.3.1; zh_CN) Cronet';
 setInterval(function() {
     var _0x4cbed3 = {
