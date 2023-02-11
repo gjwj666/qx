@@ -4,7 +4,7 @@
 
 下载地址：https://is.gd/2nSvVO
 
-软件版本：6.9.1
+软件版本：最新版本
 
 TG频道群：https://t.me/gjwj6
 
