@@ -1,5 +1,7 @@
 /******************************
 
+久夜破解vip
+
 [rewrite_local]
 
 https:\/\/29xx\.top\/index\/user\/receipt.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/jiuye.js
