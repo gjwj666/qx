@@ -1,10 +1,23 @@
 /******************************
 
-脚本功能：美队tv（18+）+解锁VIP会员
+脚本功能：发财tv（18+）+解锁VIP会员
 
 TG群：https://t.me/gjwj6
 
-下载地址: https://mdwy5.com/#/register?code=580580
+在线地址：https://fctv111.com
+
+https://fctv222.com
+
+https://fctv333.com
+
+https://fctv444.com
+
+https://fctv555.com
+
+美队下载https://bxzb.lanzouh.com/s/mgdz123
+后台地址:http://mgdzapi.com/video/login
+
+邀请码206898
 
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
