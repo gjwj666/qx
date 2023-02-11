@@ -21,4 +21,4 @@ TG频道群：https://t.me/gjwj6
 hostname = *faceu*,*retouchpics*
 
 *******************************/
-var modifiedHeaders=$request['headers'];modifiedHeaders['x-Tt-Token']='009dbd19d8088d64d22cf86fc93cc3352003e6cc268bf62c2409becd86f588dbfaca731992b5881ec0b81a99ab8bc7ccb9762ea141114b9878f691a497176f0b27ee06b7f2ed5e7cddf751fb4e4d679746f0ae6b26139561fa3deaf790401c01af14d-1.0.1';modifiedHeaders['User-Agent']='Retouch 6.8.0 rv:6.8.0.31 (iPhone; iOS 15.3.1; zh_CN) Cronet';$done({'headers':modifiedHeaders});
+var modifiedHeaders=$request['headers'];modifiedHeaders['x-Tt-Token']='000c48bc08c756797a420ebdd83a382832033780f55f3cd319b452e3db9aa14d76cced1ce6821a5805a3bc7d9bbadf8b22f12426e26a02e9947a4430331c32fc876a9e5313be2b1a2ddd6db2122792ce02087d14d9946cef6ac982068fd458ee705f9-1.0.1';modifiedHeaders['User-Agent']='Retouch 6.8.0 rv:6.8.0.31 (iPhone; iOS 15.3.1; zh_CN) Cronet';$done({'headers':modifiedHeaders});
