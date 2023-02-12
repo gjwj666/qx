@@ -14,7 +14,7 @@ TG频道群：https://t.me/gjwj6
 
 [rewrite_local]
 
-^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/jy.js
+^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/JY.js
 
 [mitm] 
 
