@@ -5,6 +5,7 @@ Tg频道:https://t.me/gjwj6
 
 添加了远程js 修改内容会失效
 
+更新时间2023-02-17
 ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)) url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/xmly.js
 
 hostname = *.ximalaya.com, *.*.*.*
