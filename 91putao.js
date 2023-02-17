@@ -7,7 +7,7 @@
 
 [rewrite_local]
 
-https:\/\/gateway\.h84ug5\.com\/member\/memberInfo\/getInfoById url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91putao.js
+https:\/\/gateway\.h84ug5\.com\/member\/memberInfo\/.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91putao.js
 
 [mitm] 
 
