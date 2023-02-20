@@ -1,13 +1,15 @@
 
 /******************************
 
+软件名字Ctm
+
 Tg频道:https://t.me/gjwj6
 
 脚本制作:by伟人，ios鸡神
 
 脚本作用:打飞机专用，解锁vip
 
-网页地址: https://milk.odhkhke.cn
+网页地址: http://ctm.868gg.top/
 
 邀请码580580 随意手机号注册
 
