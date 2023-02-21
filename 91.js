@@ -9,12 +9,12 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/.+((ppapi)|(17gwl)|(sgyrc)|(mnghx)|(czbt)|(jtshuzhiwa)).(info|cc|com)\/m_sns\/(video\/apply_play_permission|film).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91.js
+^http[s]?:\/\/*.*.*\/m_user\/info.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91.js
 
 
 [mitm]
 
-hostname = *17gwl*,appapi*,*sgyrc*,*mnghx*,*czbt*,*jtshuzhiwa*,mnghx,czbt
+hostname = api.czbt.cc,api.jinhuachuangxin.com,
 
 *****************************/
 
