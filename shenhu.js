@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/api\.domain\.liuniukeji\.heshuangde\.com\/index\.php\/App.*$ url script-request-header shenhu.js
+^http[s]?:\/\/api\.domain\.liuniukeji\.heshuangde\.com\/index\.php\/App.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/shenhu.js
 
 [mitm] 
 
