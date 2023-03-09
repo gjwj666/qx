@@ -25,7 +25,7 @@ var __Oxf1045 = [
     "expireAt",
     "memberLevel",
     "dispName",
-    "Eric专属",
+    "ios鸡神专属",
     "stringify",
     "undefined",
     "log",
