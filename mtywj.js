@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^https:\/\/www\.skyjos\.cn:58080\/ws\/loadaccountinfo$ url script-response-body mty.js
+^https:\/\/www\.skyjos\.cn:58080\/ws\/loadaccountinfo$ url script-response-body mtywj.js
 
 [mitm]
 
