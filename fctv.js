@@ -25,10 +25,10 @@ https://fctv555.com
 
 [rewrite_local]
 
-^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/mgdz.js
+^https:\/\/mdapi\.zhbt01\.com\/api\/video\/user\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/fctv.js
 
 [mitm] 
-hostname = fcapi.91por.vip
+hostname = mdapi.zhbt01.com
 
 
 
