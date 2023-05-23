@@ -1,12 +1,10 @@
 
 /********************************
 TG频道群：https://t.me/iosapp520
-
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+FacePlay解锁永久vip
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖!
   
-  [rewrite_local]
-# FacePlay 解锁vip
-
+[rewrite_local]
 ^https:\/\/aico-api.aiglobalniu.com\/users\/account url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/FacePlay.js
 
 [mitm] 
