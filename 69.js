@@ -3,16 +3,16 @@
 
 下载地址：https://www.69av.live
 
-注册码206898
+注册码480480
 
-TG频道群：https://t.me/gjwj6
+TG频道群：https://t.me/iosapp520
 
 [rewrite_local]
 
-^https:\/\/jiekou1\.shijiujin\.com\/Login\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/69sp.js
+^https://jiekou\.jable44\.shop/Login/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/69.js
 
 [mitm] 
-hostname = jiekou1.shijiujin.com
+hostname = jiekou.jable44.shop
 
 ******************************/
 
