@@ -3,7 +3,7 @@
 [rewrite_local]
 
 
-Tg频道:https://t.me/gjwj6
+Tg频道:https://t.me/iosapp520
 
 ios鸡神制作 
 
@@ -15,7 +15,7 @@ ios鸡神制作
 https://apps.apple.com/cn/app/%E4%B9%83%E7%B3%96%E5%B0%8F%E7%BB%84%E4%BB%B6-%E5%88%9B%E6%84%8F%E4%B8%BB%E9%A2%98%E5%A3%81%E7%BA%B8/id1544011866
 
 
-^https://gw\.aoscdn\.com/base/vip/client/authorizations url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/naitang.js
+^https://gw\.aoscdn\.com/base/vip/client/authorizations url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/naiTang.js
 
 
 [mitm]
