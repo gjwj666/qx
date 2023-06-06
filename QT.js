@@ -2,7 +2,7 @@
 
 脚本功能：轻图解锁永久专业版
 
-TG频道:https://t.me/gjwj6
+TG频道:https://t.me/iosapp520
 
 ios鸡神破解
 
@@ -15,7 +15,7 @@ ios鸡神破解
 [rewrite_local]
 
 # > 轻图解锁永久专业版
-^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/qt.js
+^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/QT.js
 
 [mitm] 
 hostname = purchase-qingtu-api.b612kaji.com
