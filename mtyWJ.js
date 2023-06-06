@@ -3,7 +3,7 @@
 商店下载：猫头鹰文件
 
 
-TG频道:https://t.me/gjwj6
+TG频道:https://t.me/iosapp520
 
 ios鸡神破解
 
@@ -13,7 +13,7 @@ ios鸡神破解
 
 [rewrite_local]
 
-^https:\/\/www\.skyjos\.cn:58080\/ws\/loadaccountinfo$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/mtywj.js
+^https:\/\/www\.skyjos\.cn:58080\/ws\/loadaccountinfo$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/mtyWJ.js
 
 [mitm]
 
