@@ -1,6 +1,6 @@
 /**
 
-Tg频道:https://t.me/gjwj6
+Tg频道:https://t.me/iosapp520
 
 ios鸡神制作 
 
@@ -14,7 +14,7 @@ ios鸡神制作
  [rewrite_local]
 
 
-^https://.*-api\.tuxiaobei\.com/v1/user/ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/txbyy.js
+^https://.*-api\.tuxiaobei\.com/v1/user/ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/txbYY.js
 
 [mitm]
 hostname = *-api.tuxiaobei.com
