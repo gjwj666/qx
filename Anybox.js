@@ -4,7 +4,7 @@
 
 下载地址：https://is.gd/DylUak
 
-TG频道群：https://t.me/gjwj6
+TG频道群：https://t.me/iosapp520
 
 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
@@ -12,7 +12,7 @@ TG频道群：https://t.me/gjwj6
 
 [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/AAnybox.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/Anybox.js
 
 [mitm] 
 
