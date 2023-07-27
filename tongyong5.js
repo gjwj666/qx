@@ -13,7 +13,7 @@ tg频道: https://t.me/iosapp520
 **************************************
 
 [rewrite_local]
-^https:\/\/api.*\.xiangha\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caipu.js
+^https:\/\/api.*\.xiangha\.com url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/tongyong5.js
 
 [mitm]
 hostname = *.xiangha.com
