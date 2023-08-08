@@ -20,7 +20,7 @@ TG频道:https://t.me/iosapp520
 
 [mitm] 
 
-hostname=*kuwo*,*lrts*
+hostname= *.kuwo.cn, *.lrts.me
 
 ***********************************/
 var $request_url = $request.url;
