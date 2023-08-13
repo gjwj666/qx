@@ -4,7 +4,7 @@
 
 下载地址：https://is.gd/noC6KT
 
-TG频道群：https://t.me/gjwj
+TG频道群：https://t.me/iosapp520
 
 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
@@ -12,7 +12,8 @@ TG频道群：https://t.me/gjwj
 
 [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/Emote.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/Emo.js
+
 
 [mitm] 
 
