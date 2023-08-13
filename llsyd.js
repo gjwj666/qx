@@ -4,7 +4,7 @@
 
 下载地址：https://is.gd/ANNpWW
 
-TG频道群：https://t.me/iosapp
+TG频道群：https://t.me/iosapp520
 
 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
@@ -12,7 +12,7 @@ TG频道群：https://t.me/iosapp
 
 [rewrite_local]
 
-^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/lls.js
+^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/llsyd.js
 
 
 [mitm] 
