@@ -1,5 +1,5 @@
 /**
-Tg频道:https://t.me/gjwj6
+Tg频道:https://t.me/iosapp520
 
 ios鸡神制作 
 
@@ -17,7 +17,7 @@ hostname = *.silkangel.*
 
 [rewrite_local]
 
-^https?://.*\.silkangel\.com/api/.*(/myinfo|/item/all)$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/silk.js
+^https?://.*\.silkangel\.com/api/.*(/myinfo|/item/all)$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/siwa.js
 
 
  */
