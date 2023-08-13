@@ -4,7 +4,7 @@
 
 下载地址：https://is.gd/q98FZq
 
-TG频道群：https://t.me/gjwj6
+TG频道群：https://t.me/iosapp520
 
 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
