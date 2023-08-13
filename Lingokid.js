@@ -12,7 +12,7 @@ TG频道群：https://t.me/iosapp520
 
 [rewrite_local]
 
-^https:\/\/api\.lingokids\.com\/v1\/renovate_session url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/Lingokids.js
+^https:\/\/api\.lingokids\.com\/v1\/renovate_session url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/Lingokid.js
 
 [mitm] 
 
