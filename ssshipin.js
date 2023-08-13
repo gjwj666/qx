@@ -3,14 +3,14 @@
 脚本功能：涩涩视频——去除所有广告
 下载地址：https://48478.xyz/
 网页在线:https://files.yuchenglw.com
-TG频道群：https://t.me/gjwj6
+TG频道群：https://t.me/iosapp520
 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 *******************************
 
 [rewrite_local]
 
-^https://files.yuchenglw.com url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/sssp.js
+^https://files.yuchenglw.com url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/ssshipin.js
 
 [mitm] 
 
