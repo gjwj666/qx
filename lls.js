@@ -12,7 +12,7 @@ TG频道群：https://t.me/iosapp
 
 [rewrite_local]
 
-^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/liulishuo.js
+^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/lls.js
 
 
 [mitm] 
