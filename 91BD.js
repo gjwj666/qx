@@ -12,9 +12,9 @@ ios鸡神-破解
 
 [rewrite_local]
 
-^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/91B.js
+^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/91BD.js
 
-^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91TJ.js
+^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91TK.js
 
 
 [mitm]
