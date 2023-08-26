@@ -6,7 +6,7 @@ tg频道: https://t.me/iosapp520
 
 ios鸡神-破解
 
-更新时间2023/06/07
+更新时间2023/08/27
 
 
 
@@ -15,7 +15,7 @@ ios鸡神-破解
 ^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/91BD.js
 
 ^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91TK.js
-
+^https?:\/\/.*\/(common\/(splash_config|homepage\/official_website_popup)|m_user\/(check_phone|behavior_verification_code)) url reject-200
 
 [mitm]
 
