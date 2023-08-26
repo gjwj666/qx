@@ -14,7 +14,7 @@ ios鸡神-破解
 
 ^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/91B.js
 
-^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91T.js
+^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91TJ.js
 
 
 [mitm]
