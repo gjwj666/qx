@@ -8,7 +8,7 @@ Tg频道:https://t.me/iosapp520
 
 解锁射区永久全能卡 观看付费视频
 
-http[s]?://.*(bytebwq|qrneryt|dirptev|saejeuj).com/api/app/(ping/config|media/(play|homev2|short/recommend)|user/info) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/madou.js
+http[s]?://.*(bytebwq|qrneryt|dirptev|saejeuj).com/api/app/(ping/config|media/(play|homev2|short/recommend)|user/info) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/madousp.js
 
 hostname=*bytebwq.com,*qrneryt.com,*dirptev.com,*saejeuj.com
 
