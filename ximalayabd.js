@@ -70,45 +70,48 @@ hostname = 180.153.*.*,*xima*,*xmcdn*,*.ximalaya.com,*.xmcdn.com,180.153.255.*,1
 
 
 
-body = $response.body,
-url = $request.url;
-
-url.indexOf('/mobile-playpage/playpage/tabs') != -1 && (body = body.replace(/"sampleDuration":\d/g, '"sampleDuration":99999').replace(/"isFree":\w+/g, '"isFree":true').replace(/"text":"[^"]+/g, '"text":"脚本由ios鸡神免费提供!请点击此处获取最新JS。').replace(/"isAuthorized":\w+/g, '"isAuthorized":true').replace(/"url":"[^"]+/g, '"url":"https://t.me/iosapp520'));
-
-url.indexOf('v1/album/track/ts') != -1 && (body = body.replace(/"isFree":\w+/g, '"isFree":true').replace(/"isPaid":\w+/g, '"isPaid":false').replace(/"isSample":\w+/g, '"isSample":true').replace(/"isAuthorized":\w+/g, '"isAuthorized":true'));
-
-url.indexOf('/product/detail/v1/module/data/dynamic') != -1 && (body = body.replace(/"isFree":\w+/g, '"isFree":true').replace(/"isPaid":\w+/g, '"isPaid":false').replace(/"isAuthorized":\w+/g, '"isAuthorized":true').replace(/"isSample":\w+/g, '"isSample":true').replace(/"vipPurchaseText":"[^"]+/g, '"vipPurchaseText":"点击添加鸡神TG频道').replace(/"vipPurchaseUrl":"[^"]+/g, '"vipPurchaseUrl":"https://t.me/iosapp520'));
-
-url.indexOf('/product/detail/v1/basicInfo/dynamic/ts') != -1 && (body = body.replace(/"buttonContent\\":\\"[^"]+/g, '"buttonContent\":\"点击添加作者TG频道\').replace(/"url\\":\\"[^"]+/g, '"url\":\"https://t.me/iosapp520\').replace(/"isFree":\w+/g, '"isFree":true').replace(/"isPaid":\w+/g, '"isPaid":false').replace(/"isAuthorized":\w+/g, '"isAuthorized":true').replace(/"isSample":\w+/g, '"isSample":true'));
-
-url.indexOf('business-vip-presale-mobile-web/page/ts') != -1 && (body = body.replace(/nickName":"[^"]+/g, 'nickName":"ios鸡神').replace(/vipStatus":\d/g, 'vipStatus":2').replace(/subtitle":"[^"]+/g, 'subtitle":"2999-09-09免费提供禁止贩卖').replace(/userLevelIcon":"[^"]+/g, 'userLevelIcon":"https://telegraph-image.pages.dev/file/f94bec4f7439340d5c179.jpg').replace(/userLogoPic":"[^"]+/g, 'userLogoPic":"https://telegraph-image.pages.dev/file/f94bec4f7439340d5c179.jpg'));
-
-var obj = JSON.parse(body);
-if (url.indexOf('/product/promotion/v1/album/price/ts') != -1) {
-    obj.data.behaviors[0].action.url = 'https://t.me/iosapp520';
-    obj.data.behaviors[0].vipPurchaseText = '点击添加鸡神TG频道';
-    obj.data.behaviors[0].labelSubTitle = '添加频道获取最新脚本继续畅听!';
-    obj.data.behaviors[0].labelText = '出现了意外?这是付费节目?';
-    body = JSON.stringify(obj);
+var _0x5b537a = ["body", "url", "/mobile-playpage/playpage/tabs", "v1/album/track/ts", "business-vip-presale-mobile-web/page/ts", "/product/promotion/v1/album/price/ts", "mobile-user/v2/homePage/", "vip/v1/recommand", "/track/v3/baseInfo", "/product/detail/v1/module/data/dynamic", "/product/detail/v1/basicInfo/dynamic/ts", "indexOf", "\"url\":\"https://t.me/WeiRenQAQ/163", "replace", "\"isAuthorized\":true", "\"text\":\"☘️脚本由伟人免费提供!请点击此处获取最新JS。当前是体验[3]线路❤️", "\"isFree\":true", "\"sampleDuration\":99999", "\"isSample\":true", "\"isPaid\":false", "\"vipPurchaseUrl\":\"https://t.me/WeiRenQAQ", "\"vipPurchaseText\":\"点击添加作者TG频道", "\"url\\\":\\\"https://t.me/WeiRenQAQ\\", "\"buttonContent\\\":\\\"❤️❤️点击添加作者TG频道❤️❤️\\", "userLogoPic\":\"https://static.jietushuiyin.com/uploads/20230204/452be787cb7d63972965498fbf23666d.jpg", "userLevelIcon\":\"http://imagev2.xmcdn.com/group87/M09/0A/4E/wKg5IV8Pwjmw5My3AAASYbQa39Y768.png", "subtitle\":\"2999-09-09免费提供禁止贩卖", "vipStatus\":2", "nickName\":\"by~伟人", "parse", "action", "behaviors", "data", "https://t.me/WeiRenQAQ/163", "vipPurchaseText", "点击添加作者TG频道", "labelSubTitle", "添加频道获取最新脚本继续畅听！👉", "labelText", "出现了意外？这是付费节目？", "stringify", "nickname", "by~伟人", "isVip", "vipExpireTime", "vipStatus", "vipLevel", "anchorVipInfo", "vipInfo", "level", "mobileLargeLogo", "https://static.jietushuiyin.com/uploads/20230204/452be787cb7d63972965498fbf23666d.jpg", "mobileSmallLogo", "mobileMiddleLogo", "modules", "nickName", "msg", "我累了😭。请使用别的线路或者隔一天再来💔"],
+  _0x3dc0bc = $response[_0x5b537a[0]],
+  _0xbf2b54 = $request[_0x5b537a[1]];
+const _0x52f021 = _0x5b537a[2];
+const _0x213233 = _0x5b537a[3],
+  _0x3c8bf6 = _0x5b537a[4],
+  _0x16aade = _0x5b537a[5],
+  _0x3ca014 = _0x5b537a[6],
+  _0x47e4ac = _0x5b537a[7],
+  _0x401cc2 = _0x5b537a[8],
+  _0x1f90a3 = _0x5b537a[9],
+  _0x16ac8e = _0x5b537a[10];
+_0xbf2b54[_0x5b537a[11]](_0x52f021) != -1 && (_0x3dc0bc = _0x3dc0bc[_0x5b537a[13]](/"sampleDuration":\d/g, _0x5b537a[17])[_0x5b537a[13]](/"isFree":\w+/g, _0x5b537a[16])[_0x5b537a[13]](/"text":"[^"]+/g, _0x5b537a[15])[_0x5b537a[13]](/"isAuthorized":\w+/g, _0x5b537a[14])[_0x5b537a[13]](/"url":"[^"]+/g, _0x5b537a[12]));
+_0xbf2b54[_0x5b537a[11]](_0x213233) != -1 && (_0x3dc0bc = _0x3dc0bc[_0x5b537a[13]](/"isFree":\w+/g, _0x5b537a[16])[_0x5b537a[13]](/"isPaid":\w+/g, _0x5b537a[19])[_0x5b537a[13]](/"isSample":\w+/g, _0x5b537a[18])[_0x5b537a[13]](/"isAuthorized":\w+/g, _0x5b537a[14]));
+_0xbf2b54[_0x5b537a[11]](_0x1f90a3) != -1 && (_0x3dc0bc = _0x3dc0bc[_0x5b537a[13]](/"isFree":\w+/g, _0x5b537a[16])[_0x5b537a[13]](/"isPaid":\w+/g, _0x5b537a[19])[_0x5b537a[13]](/"isAuthorized":\w+/g, _0x5b537a[14])[_0x5b537a[13]](/"isSample":\w+/g, _0x5b537a[18])[_0x5b537a[13]](/"vipPurchaseText":"[^"]+/g, _0x5b537a[21])[_0x5b537a[13]](/"vipPurchaseUrl":"[^"]+/g, _0x5b537a[20]));
+_0xbf2b54[_0x5b537a[11]](_0x16ac8e) != -1 && (_0x3dc0bc = _0x3dc0bc[_0x5b537a[13]](/"buttonContent\\":\\"[^"]+/g, _0x5b537a[23])[_0x5b537a[13]](/"url\\":\\"[^"]+/g, _0x5b537a[22])[_0x5b537a[13]](/"isFree":\w+/g, _0x5b537a[16])[_0x5b537a[13]](/"isPaid":\w+/g, _0x5b537a[19])[_0x5b537a[13]](/"isAuthorized":\w+/g, _0x5b537a[14])[_0x5b537a[13]](/"isSample":\w+/g, _0x5b537a[18]));
+_0xbf2b54[_0x5b537a[11]](_0x3c8bf6) != -1 && (_0x3dc0bc = _0x3dc0bc[_0x5b537a[13]](/nickName":"[^"]+/g, _0x5b537a[28])[_0x5b537a[13]](/vipStatus":\d/g, _0x5b537a[27])[_0x5b537a[13]](/subtitle":"[^"]+/g, _0x5b537a[26])[_0x5b537a[13]](/userLevelIcon":"[^"]+/g, _0x5b537a[25])[_0x5b537a[13]](/userLogoPic":"[^"]+/g, _0x5b537a[24]));
+var _0x3573a6 = JSON[_0x5b537a[29]](_0x3dc0bc);
+if (_0xbf2b54[_0x5b537a[11]](_0x16aade) != -1) {
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[31]][0][_0x5b537a[30]][_0x5b537a[1]] = _0x5b537a[33];
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[31]][0][_0x5b537a[34]] = _0x5b537a[35];
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[31]][0][_0x5b537a[36]] = _0x5b537a[37];
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[31]][0][_0x5b537a[38]] = _0x5b537a[39];
+  _0x3dc0bc = JSON[_0x5b537a[40]](_0x3573a6);
 }
-if (url.indexOf('mobile-user/v2/homePage/') != -1) {
-    obj.data.nickname = 'ios鸡神';
-    obj.data.isVip = true;
-    obj.data.vipExpireTime = 32493834549000;
-    obj.data.vipStatus = 2;
-    obj.data.vipLevel = 5;
-    obj.data.anchorVipInfo.isVip = true;
-    obj.data.vipInfo.isVip = true;
-    obj.data.vipInfo.level = 5;
-    obj.data.mobileLargeLogo = 'https://telegraph-image.pages.dev/file/f94bec4f7439340d5c179.jpg';
-    obj.data.mobileSmallLogo = 'https://telegraph-image.pages.dev/file/f94bec4f7439340d5c179.jpg';
-    obj.data.mobileMiddleLogo = 'https://telegraph-image.pages.dev/file/f94bec4f7439340d5c179.jpg';
-    body = JSON.stringify(obj);
+if (_0xbf2b54[_0x5b537a[11]](_0x3ca014) != -1) {
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[41]] = _0x5b537a[42];
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[43]] = true;
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[44]] = 32493834549000;
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[45]] = 2;
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[46]] = 5;
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[47]][_0x5b537a[43]] = true;
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[48]][_0x5b537a[43]] = true;
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[48]][_0x5b537a[49]] = 5;
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[50]] = _0x5b537a[51];
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[52]] = _0x5b537a[51];
+  _0x3573a6[_0x5b537a[32]][_0x5b537a[53]] = _0x5b537a[51];
+  _0x3dc0bc = JSON[_0x5b537a[40]](_0x3573a6);
 }
-
-url.indexOf('vip/v1/recommand') != -1 && (delete obj.data.modules, obj.data.vipStatus = 2, obj.data.nickName = 'ios鸡神', body = JSON.stringify(obj));
-url.indexOf('/track/v3/baseInfo') != -1 && (obj.msg = '我累了。等鸡哥修复好再用吧', body = JSON.stringify(obj));
-
-$done({
-    "body": body
-});
+_0xbf2b54[_0x5b537a[11]](_0x47e4ac) != -1 && (delete _0x3573a6[_0x5b537a[32]][_0x5b537a[54]], _0x3573a6[_0x5b537a[32]][_0x5b537a[45]] = 2, _0x3573a6[_0x5b537a[32]][_0x5b537a[55]] = _0x5b537a[42], _0x3dc0bc = JSON[_0x5b537a[40]](_0x3573a6));
+_0xbf2b54[_0x5b537a[11]](_0x401cc2) != -1 && (_0x3573a6[_0x5b537a[56]] = _0x5b537a[57], _0x3dc0bc = JSON[_0x5b537a[40]](_0x3573a6));
+const _0x313274 = {
+  "body": _0x3dc0bc
+};
+$done(_0x313274);
