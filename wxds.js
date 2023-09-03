@@ -10,7 +10,7 @@ TG频道群：https://t.me/iosapp520
 [rewrite_local]
 
 #微信读书
-^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\/profile\?articleBookId|upload\?type\=avatar).*$ url script-response-body https://fk.gjds.vip/weixindushu.js
+^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\/profile\?articleBookId|upload\?type\=avatar).*$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/wxds.js
 ^http[s]?:\/\/(i\.weread|rmonitor)\.qq\.com\/(login|).*$ url request-body "deviceId" : "[^"]+ request-body "deviceId":"de465a3fdf0f36aef34acfa908b2dd2c
 ^http[s]?:\/\/i\.weread\.qq\.com\/device\/logout url reject-200
 ^http[s]?:\/\/i\.weread\.qq\.com\/updateConfig url reject-200
