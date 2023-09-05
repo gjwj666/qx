@@ -14,20 +14,13 @@ hostname = api.mattingm.com
 
 *******************************/
 
+var body = $response.body;  // 获取 HTTP 响应体
+var parsedBody = JSON.parse(body);  // 解析 JSON 响应
 
-// 原始代码可能有用于处理 HTTP 响应的库或代码片段
+// 修改某些字段
+parsedBody.state.user_id = 1;
+parsedBody.state.expire_at = "2999-12-28 00:00:00";
+parsedBody.state.data = 0xa2c2a;
 
-function main() {
-  var body = $response.body;  // 获取 HTTP 响应体
-  var parsedBody = JSON.parse(body);  // 解析 JSON 响应
-
-  // 修改某些字段
-  parsedBody.state.user_id = 1;
-  parsedBody.state.expire_at = "2999-12-28 00:00:00";
-  parsedBody.state.data = 0xa2c2a;
-
-  // 将修改后的对象转回 JSON 字符串，并作为新的响应体
-  $done({ 'body': JSON.stringify(parsedBody) });
-}
-
-main();
+// 将修改后的对象转回 JSON 字符串，并作为新的响应体
+$done({ body: JSON.stringify(parsedBody) });
