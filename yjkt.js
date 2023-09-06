@@ -14,13 +14,9 @@ hostname = api.mattingm.com
 
 *******************************/
 
-var body = $response.body;  // 获取 HTTP 响应体
-var parsedBody = JSON.parse(body);  // 解析 JSON 响应
+var iosjs = JSON.parse($response.body);
 
-// 修改某些字段
-parsedBody.state.user_id = 1;
-parsedBody.state.expire_at = "2999-12-28 00:00:00";
-parsedBody.state.data = 0xa2c2a;
+iosjs.data.expire_at = "2099-09-09 09:09:09";
+iosjs.data.state = 3;
 
-// 将修改后的对象转回 JSON 字符串，并作为新的响应体
-$done({ body: JSON.stringify(parsedBody) });
+$done({body : JSON.stringify(iosjs)});
