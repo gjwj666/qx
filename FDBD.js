@@ -9,9 +9,9 @@ TG频道群：https://t.me/iosapp520
 
 
 
-^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/fdck.js
+^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/FDCK.js
 
-^http[s]?:\/\/.+dushu.+(v101\/content|book\/v100\/info|\/play\/duration|\/v100\/index|lilei-talk-orch\/program\/v100\/info).*$ url script-request-body https://raw.githubusercontent.com/gjwj666/qx/main/fdbd.js
+^http[s]?:\/\/.+dushu.+(v101\/content|book\/v100\/info|\/play\/duration|\/v100\/index|lilei-talk-orch\/program\/v100\/info).*$ url script-request-body https://raw.githubusercontent.com/gjwj666/qx/main/FDBD.js
 
 ^http[s]?:\/\/.*dushu365\.com\/resource-orchestration-system\/play\/duration url reject-200
 
