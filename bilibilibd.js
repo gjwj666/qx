@@ -7,6 +7,11 @@ Tg频道:https://t.me/iosapp520
 
 ^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/bilibilitk.js
 ^http[s]?:\/\/.+bilibili.+((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)).*$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/bilibilibd.js
+^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive url reject-dict
+^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report url reject-dict
+^https://api.bilibili.com/pgc/season/player/cards url reject-dict
+^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default url reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash|GetActivityTab) url reject-dict
 hostname = *.biliapi.*, *.bilibili.*,
 
  */
