@@ -6,12 +6,12 @@ Ai绘画
 
 作者:ios鸡神
 
-下载地址：
+下载地址：http://suo.nz/2CAzON
 
 tg频道: https://t.me/iosapp520
 
  [rewrite_local]
-^https:\/\/aihh\.shujiaxia\.com\/api\/user\/my$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/aihh.js
+^https:\/\/aihh\.shujiaxia\.com\/api\/user\/my$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/Aihh.js
 
 [mitm]
 hostname = *.shujiaxia.*
