@@ -1,6 +1,6 @@
 /**
 
-mj中文版本 解锁无限制生图
+mj中文版本 解锁无限制生
 
 作者:ios鸡神
 
@@ -9,7 +9,7 @@ mj中文版本 解锁无限制生图
 tg频道: https://t.me/iosapp520
 
  [rewrite_local]
-^https:\/\/api\.io111\.com\/api\/system_setting\/getSystemSetting url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/mjai.js
+^https:\/\/aihh\.shujiaxia\.com\/api\/user\/my$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/aihh.js
 
 [mitm]
 hostname = *.shujiaxia.*
