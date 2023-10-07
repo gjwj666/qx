@@ -1,17 +1,16 @@
 /*
 
-照片压缩 视频压缩 终身会员 解锁所有广告
+照片压缩 终身会员 解锁所有广告
 
 作者:ios鸡神
 
 照片压缩下载地址：https://apps.apple.com/cn/app/%E7%85%A7%E7%89%87%E5%8E%8B%E7%BC%A9-%E7%85%A7%E7%89%87%E5%8E%8B%E7%BC%A9%E5%A4%84%E7%90%86%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87%E5%B7%A5%E5%85%B7/id1614405608
 
-视频压缩下载地址: https://apps.apple.com/cn/app/%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9%E8%BD%AF%E4%BB%B6-%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9%E8%A3%81%E5%89%AA%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%99%A8/id1613447572
 
 tg频道: https://t.me/iosapp520
 
  [rewrite_local]
-^http:\/\/*.shujiaxia.*/api/user/my$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/zpys.js
+^http:\/\/tb\.shujiaxia\.com/api/user/my$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/zpys.js
 [mitm]
 hostname = *.shujiaxia.*
 
