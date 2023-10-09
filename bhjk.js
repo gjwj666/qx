@@ -15,7 +15,7 @@ Tg频道 https://t.me/iosapp520
 
 [rewrite]
 # 会员
-^https://api\.boohee\.com/app-interface/v1/user/user_info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/bhjk.js
+^https:\/\/api\.boohee\.com\/app-interface\/v1\/user\/user_info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/bhjk.js
 # 广告
 ^https://api\.boohee\.com/app-interface/v1/ad/info url 302 & request-header Connection: close
 
@@ -23,20 +23,17 @@ Tg频道 https://t.me/iosapp520
 [mitm]
 hostname = api.boohee.com
 
-
-
 */
 
+var obj = JSON.parse($response.body);
 
-let body = $response.body;
+if ($request.url.indexOf('api.boohee.com/app-interface/v1/user/user_info') !== -1) {
+    obj.member = true;
+    obj.state = "1";
+    obj.expired_at = "2199-01-01 00:00:00";
+}
 
-// 修改member字段为true
-body = body.replace(/"member":\w+/, '"member":true');
+$done({body: JSON.stringify(obj)});
 
-// 修改state字段为1
-body = body.replace(/"state":"",/, '"state":"1",');
 
-// 修改expired_at字段为"2199-01-01 00:00:00"
-body = body.replace(/"expired_at":".*?",/, '"expired_at":"2199-01-01 00:00:00",');
 
-$done({ body });
