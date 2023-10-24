@@ -1,7 +1,7 @@
 /*******************************
 [rewrite_local]
 
-^https:\/\/api(1|2|3)\.uappapi\.com\/api\.php\/api\/(user\/userInfo|home\/config|community\/construct|mv\/getDetail|mv\/list_construct)$ url script-response-body http://fk.gjds.vip/qy.js
+^https:\/\/api(1|2|3)\.uappapi\.com\/api\.php\/api\/(user\/userInfo|home\/config|community\/construct|mv\/getDetail|mv\/list_construct)$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/qy.js
 
 [mitm] 
 hostname = api1.uappapi.com*,api2.uappapi.com*,api3.uappapi.com*
