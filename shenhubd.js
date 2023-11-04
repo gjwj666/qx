@@ -3,11 +3,11 @@
 [rewrite_local]
 
 #神户直播
-^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body https://github.com/gjwj666/qx/edit/main/shenhubd.js
+^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/shenhubd.js
 
 ^http[s]?:\/\/gitee\.com\/ReactJSTeams\/next.js\/raw\/master\/examples\/nested-components\/.gitignore url reject-200
 
-^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/User\/Info.*$ url script-request-header https://github.com/gjwj666/qx/edit/main/shenhutk.js
+^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/User\/Info.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/shenhutk.js
 
 
 [mitm]
