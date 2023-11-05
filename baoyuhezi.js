@@ -16,7 +16,7 @@ https://43.248.139.87:3306/#/?uid=pingtai1
 
 #鲍鱼盒子
 
-^http[s]?:\/\/.+\/api(\/video\/report_item?|\/live\/room\/detail?|\/video\/related?|\/video\/detail|\/social\/posts_info).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/baoyu.js
+^http[s]?:\/\/.+\/api(\/video\/report_item?|\/live\/room\/detail?|\/video\/related?|\/video\/detail|\/social\/posts_info).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/baoyuhezi.js
 
 [mitm]
 hostname = *1* 42.157.*.*
