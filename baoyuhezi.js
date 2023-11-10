@@ -15,11 +15,10 @@ https://43.248.139.87:3306/#/?uid=pingtai1
 [rewrite_local]
 
 #鲍鱼盒子
-
-^http[s]?:\/\/.+\/api(\/video\/report_item?|\/live\/room\/detail?|\/video\/related?|\/video\/detail|\/social\/posts_info).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/baoyuhezi.js
+^http[s]?:\/\/.+\/api(\/video\/report_item?|\/live\/room\/detail?|\/video\/related?|\/video\/detail|\/social\/posts_info|\/live\/plat\/detail?).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/baoyuhezi.js
 
 [mitm]
-hostname = *1* 42.157.*.*
+hostname = *1* 42.157.*.* 211.99.99.144
 
 
 */
