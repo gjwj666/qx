@@ -12,6 +12,8 @@ TG频道群：https://t.me/iosapp520
 [rewrite_local]
 ^https?:\/\/(h5play|10play)\.(snowing|beibeini3)\.(ren|cn)/(videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/tangtoutiao.js
 
+^https?:\/\/(120play|10play)\.(snowing|beibeini3)\.(ren|cn)/(videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/tangtoutiao.js
+
 
 [mitm] 
 hostname = *.snowing.ren, *.beibeini3.cn, *.pili01a.net
