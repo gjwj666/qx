@@ -1,7 +1,19 @@
 /**
 
 脚本功能：汤头条轻量版——解锁—金币视频—VIP视频
-下载地址：https://ttt.aff009.net/af/caJtT
+脚本功能：50度灰轻量版——解锁—金币视频—VIP视频
+脚本功能：pilipili轻量版——解锁—金币视频—VIP视频
+脚本功能: 91视频轻量版——解锁—金币视频—VIP视频
+脚本功能：天涯论坛轻量版——解锁—金币视频—VIP视频
+脚本功能：暗网社区轻量版——解锁—金币视频—VIP视频
+
+下载地址：
+https://1576.rorkzv.com/
+https://aff.tyapp.net/?code=ceV4
+https://5e.kccber.com/aff-j9CEe
+https://ttt.aff009.net/af/caJtT
+https://pili.app003.live/?code=HpPX&c=6374
+
 脚本作者：ios鸡神
 更新时间：2023—11-13
 TG频道群：https://t.me/iosapp520
